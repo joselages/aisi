@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="inicial-scale=1.0, width=device-width" />
+    <title>AISI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+  </header>
+
+  <body>
+
+  <!-- BARRA DE TOPO -->
+
+    <div class="top_menu">
+      <a href="./index.html"><img src=".\images\logo-01.png" class="logo" alt="AISI"></a>
+
+      <nav class="menu">
+        <a href="./inst.html" class="menu_link"> Instalações </a>
+        <a href="./equipa.html" class="menu_link"> Equipa </a>
+        <a href="./ativ.html" class="menu_link"> Atividades </a>
+        <a href="./cont.html" class="menu_link"> Contactos </a>
+      </nav>
+    </div>
+
+    <button onclick="topFunction()" id="top_button" title="Sobe equipa!"><img src="./images/icon_top.png" ></button>
+
+    <script>
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+            document.getElementById("top_button").style.display = "block";
+        } else {
+            document.getElementById("top_button").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+      <!-- EQUIPA INTRO -->
+
+      <div class="equipa clearfix">
+        <div class="equipa_txt">
+          <h1>Somos nós...</h1>
+          <h3>...a razão destes sorrisos.</h3>
+        </div>
+      </div>
+
+      <!-- Equipa TITULO -->
+
+      <div class="equipa_tit">
+        <h2>Equipa</h2>
+        <h4>Profissionais, competentes, bem-humorados, divertidos, <strong>amigos</strong>.</h4>
+      </div>
+
+      <!-- EQUIPA ELEMENTOS -->
+      <div class="equipa_section">
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_three.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>José Lages</h4>
+            <p>Presidente</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_two.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Pedro Rodrigues</h4>
+            <p>Vice-Presidente</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_one.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>António Pereira</h4>
+            <p>Contabilista</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_four.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Rui Pedro</h4>
+            <p>Fisioterapeuta</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_five.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Maria Santos</h4>
+            <p>Prof. Ginástica</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_six.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Natália Vieira</h4>
+            <p>Prof. Dança</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_seven.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Eva Luís</h4>
+            <p>Prof. Yoga <br /> Prof. Pilates</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_eight.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Carina Muhktar</h4>
+            <p>Médica</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_nine.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Larissa Gomes</h4>
+            <p>Enfermeira</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_ten.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Gelson Martins</h4>
+            <p>Auxiliar</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_eleven.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>André Baixinho</h4>
+            <p>Auxiliar</p>
+          </div>
+        </div>
+
+        <div class="equipa_item">
+          <img class="equipa_img" src="./images/team_twelve.png" alt="Cozinha">
+          <div class="equipa_nome">
+            <h4>Vânia Ramires</h4>
+            <p>Auxiliar</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="foot_equipa">
+         Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+      </footer>
+  </body>
+</html>

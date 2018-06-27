@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="inicial-scale=1.0, width=device-width" />
+  <title>AISI</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+</header>
+
+<body>
+  <!-- BARRA DE TOPO -->
+
+  <div class="top_menu">
+    <a href="./index.html"><img src=".\images\logo-01.png" class="logo" alt="AISI"></a>
+
+    <nav class="menu">
+      <a href="./inst.html" class="menu_link"> Instalações </a>
+      <a href="./equipa.html" class="menu_link"> Equipa </a>
+      <a href="./ativ.html" class="menu_link"> Atividades </a>
+      <a href="./cont.html" class="menu_link"> Contactos </a>
+    </nav>
+
+    <div id="mobile_menu" class="icons_link">
+      <img src="./images/icon_menu.png">
+    </div>
+  </div>
+  </div>
+
+  <button onclick="topFunction()" id="top_button" title="Sobe equipa!"><img src="./images/icon_top.png" ></button>
+
+  <script>
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+          document.getElementById("top_button").style.display = "block";
+      } else {
+          document.getElementById("top_button").style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  <!-- INTRO ATIVIDADES -->
+  <div class="atividades clearfix">
+    <div class="atividades_txt">
+      <h1>Os seus anos dourados</h1>
+      <h3>Na melhor forma de sempre</h3>
+    </div>
+  </div>
+
+  <!-- Atividades TITULO -->
+  <div class="ativ_tit">
+    <h2>Atividades</h2>
+    <h4>As mais divertidas atividades com os melhores profissionais</h4>
+  </div>
+
+  <!-- ATIVIDADES -->
+
+  <!-- PILATES -->
+  <div class="ativ_container_pil">
+    <div class="ativ_type_pil">
+      <h1>Pilates</h1>
+    </div>
+    <p>O <strong>Pilates</strong> é um método de controle muscular desenvolvido por Joseph Pilates na década de 1920. A maioria dos exercícios é executada com a pessoa deitada. É atualmente uma técnica reconhecida para tratamento e prevenção de problemas na coluna vertebral. Um Estúdio de Pilates é normalmente o local onde se pratica Pilates no chão e em Grandes e Pequenos Aparelhos.</p>
+    <table>
+      <tr>
+        <th>2ª</th>
+        <th>3ª</th>
+        <th>4ª</th>
+        <th>5ª</th>
+        <th>6ª</th>
+      </tr>
+      <tr>
+        <td>10h - 11h</td>
+        <td>9h - 10h</td>
+        <td>10h - 11h</td>
+        <td>10h - 11h</td>
+        <td>15h - 16h</td>
+      </tr>
+    </table>
+
+    <div class="button rotate_plus">
+      <a href="#"><img src="./images/plus_button.png"></a>
+    </div>
+  </div>
+
+  <!-- YOGA -->
+  <div class="ativ_container_yoga">
+    <div class="ativ_type_yoga">
+      <h1>Yoga</h1>
+    </div>
+    <p>A <strong>Yoga</strong> é um conceito que se refere às tradicionais disciplinas físicas e mentais originárias da Índia. A palavra está associada com as práticas meditativas tanto do budismo quanto do hinduísmo. No hinduísmo, o conceito refere-se a uma das seis escolas (<em>āstika</em>) ortodoxas da filosofia hindu, bem como à meta que esta escola procura atingir como suas práticas.</p>
+    <table>
+      <tr>
+        <th>2ª</th>
+        <th>3ª</th>
+        <th>4ª</th>
+        <th>5ª</th>
+        <th>6ª</th>
+      </tr>
+      <tr>
+        <td>10h - 11h</td>
+        <td>9h - 10h</td>
+        <td>10h - 11h</td>
+        <td>10h - 11h</td>
+        <td>15h - 16h</td>
+      </tr>
+    </table>
+
+    <div class="button rotate_plus">
+      <a href="#"><img src="./images/plus_button.png"></a>
+    </div>
+  </div>
+
+  <!-- HIDROGINÁSTICA -->
+  <div class="ativ_container_hidro">
+    <div class="ativ_type_hidro">
+      <h1>Hidroginástica</h1>
+    </div>
+    <p>A <strong>Hidroginástica</strong> é um exercício aeróbico feito em piscinas que tem como objetivo a manutenção profilática da saúde. Melhora a capacidade aeróbica, a resistência cardiorespiratória, a resistência e a força muscular, a flexibilidade, além de proporcionar um gasto calórico de 260 a 400 kcal por hora dependendo da intensidade em que o praticante realiza os exercícios.</p>
+    <table>
+      <tr>
+        <th>2ª</th>
+        <th>3ª</th>
+        <th>4ª</th>
+        <th>5ª</th>
+        <th>6ª</th>
+      </tr>
+      <tr>
+        <td>10h - 11h</td>
+        <td>9h - 10h</td>
+        <td>10h - 11h</td>
+        <td>10h - 11h</td>
+        <td>15h - 16h</td>
+      </tr>
+    </table>
+
+    <div class="button rotate_plus">
+      <a href="#"><img src="./images/plus_button.png"></a>
+    </div>
+  </div>
+
+  <!-- SALSA -->
+  <div class="ativ_container_salsa">
+    <div class="ativ_type_salsa">
+      <h1>Salsa</h1>
+    </div>
+    <p>A <strong>Salsa</strong> é uma mescla de ritmos tais como o <em>son montuno</em>, o <em>mambo</em>, <em>cha-cha-chá</em> e a <em>rumba</em> cubana. Recebeu, ainda, influências do <em>merengue</em> (da República Dominicana), do <em>calipso</em> de Trinidad e Tobago, da <em>cúmbia</em> colombiana, do <em>rock</em> norte-americano e do <em>reggae</em> jamaicano. Hoje, é uma mistura de sons e absorve influências de ritmos mais modernos como rap ou techno. A dança correspondente ao estilo musical é caracterizada pelo compasso quaternário.</p>
+    <table>
+      <tr>
+        <th>2ª</th>
+        <th>3ª</th>
+        <th>4ª</th>
+        <th>5ª</th>
+        <th>6ª</th>
+      </tr>
+      <tr>
+        <td>10h - 11h</td>
+        <td>9h - 10h</td>
+        <td>10h - 11h</td>
+        <td>10h - 11h</td>
+        <td>15h - 16h</td>
+      </tr>
+    </table>
+
+    <div class="button rotate_plus">
+      <a href="#"><img src="./images/plus_button.png"></a>
+    </div>
+  </div>
+
+<!-- PROFISSIONAIS -->
+
+  <div class="prof">
+    <div class="prof_txt">
+      <h2>Os melhores profissionais</h2>
+      <h4>Qualidade, diversão e bom-humor</h4>
+      <a href="./equipa.html">Conheça a equipa</a>
+    </div>
+    <img src="./images/prof.png">
+
+    <footer>
+      Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+    </footer>
+  </div>
+
+  <!-- FOOTER --
+  <div class="ativ_footer">
+  <footer>
+    Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+  </footer>
+  </div>-->
+
+</body>

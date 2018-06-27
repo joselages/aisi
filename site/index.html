@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="inicial-scale=1.0, width=device-width" />
+  <title>AISI</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+</header>
+
+<body>
+
+  <!-- BARRA DE TOPO -->
+
+  <div class="top_menu">
+    <a href="./index.html"><img src=".\images\logo-01.png" class="logo" alt="AISI"></a>
+
+    <nav class="menu">
+      <a href="./inst.html" class="menu_link"> Instalações </a>
+      <a href="./equipa.html" class="menu_link"> Equipa </a>
+      <a href="./ativ.html" class="menu_link"> Atividades </a>
+      <a href="./cont.html" class="menu_link"> Contactos </a>
+    </nav>
+
+    <div id="mobile_menu" class="icons_link">
+      <img src="./images/icon_menu.png">
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="top_button" title="Sobe equipa!"><img src="./images/icon_top.png" ></button>
+
+  <script>
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+          document.getElementById("top_button").style.display = "block";
+      } else {
+          document.getElementById("top_button").style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  <!-- INTRO -->
+
+  <div class="foto clearfix">
+    <div class="foto_txt">
+      <h1>Na melhor companhia</h1>
+      <h3><a href="./inst.html">Venha conhecer as instalações</a></h3>
+    </div>
+  </div>
+
+<!-- HISTORIA -->
+
+    <div class="historia_tit">
+      <h2> História </h2>
+    </div>
+      <div class="historia_container flex_container">
+        <div class="historia_txt">
+          <p>A Associação de Idosos de Santa Iria é uma instituição particular sem fins lucrativos, tendo sido fundada a 12 de Abril de 1991.
+            Em 1992 foi constituida IPPS - Diário da República nº.215 III Série de 17/09/92.<br /><br />A 15 de Novembro, foi inaugurado o edificio
+            (antigo mercado de Murches) onde é hoje a Associação, pelo Ex.mo Sr. Presidente da Câmara Municipal de Cascais, Sr. José Luis Judas.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in scelerisque sapien. Nam aliquam bibendum accumsan. Mauris bibendum tellus
+            ac sapien tristique sodales. Vestibulum maurus, molestie a hendrerit sed, interdum id tellus. Maecenas sed urna quis magna
+            pellentesque blandit at imperdiet ex. Donec leo neque, tempus ut varius vel, tincidunt ac libero. Nulla bibendum accumsan lectus,
+            eu porttitor ligula bibendum non. Proin convallis neque euismod ex ultricies.Vestibulum maurus, molestie a hendrerit sed, interdum id tellus. Maecenas sed urna quis magna
+            pellentesque blandit at imperdiet ex. Donec leo neque, tempus ut varius vel, tincidunt ac libero. Nulla bibendum accumsan lectus,
+            eu porttitor ligula bibendum non. Proin convallis neque euismod ex ultricies.Vestibulum maurus, molestie a hendrerit sed, interdum id tellus. Maecenas sed urna quis magna
+            pellentesque blandit at imperdiet ex. Donec leo neque, tempus ut varius vel, tincidunt ac libero. Nulla bibendum accumsan lectus,
+            eu porttitor ligula bibendum non. Proin convallis neque euismod ex ultricies.Vestibulum maurus, molestie a hendrerit sed, interdum id tellus. Maecenas sed urna quis magna
+            pellentesque blandit at imperdiet ex. Donec leo neque, tempus ut varius vel, tincidunt ac libero. Nulla bibendum accumsan lectus,
+            eu porttitor ligula bibendum non. Proin convallis neque euismod ex ultricies.</p>
+        </div>
+      </div>
+
+     <!-- MISSAO -->
+
+  <div class="missao_section">
+
+      <h2>Missão</h2>
+      <h3>Promover e desenvolver actividades de carácter: </h3>
+
+    <div class="missao_container clearfix">
+
+      <!--- CULTURAL --->
+
+      <div class="missao">
+        <div class="missao_icon">
+          <img src=".\images\icon_one.png" class="icon_img">
+        </div>
+        <h4>Cultural</h4>
+      </div>
+
+      <!--- Recreativo --->
+
+      <div class="missao">
+        <div class="missao_icon">
+          <img src=".\images\icon_two.png" class="icon_img">
+        </div>
+        <h4>Recreativo</h4>
+      </div>
+
+      <!--- Social --->
+
+      <div class="missao clearfix">
+        <div class="missao_icon">
+          <img src=".\images\icon_three.png" class="icon_img">
+        </div>
+        <h4>Social</h4>
+      </div>
+    </div>
+    <footer>
+       Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+    </footer>
+  </div>
+</body>
+</html>

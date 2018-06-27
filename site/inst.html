@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="inicial-scale=1.0, width=device-width" />
+  <title>AISI</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+</header>
+
+<body>
+  <!-- BARRA DE TOPO -->
+
+  <div class="top_menu">
+    <a href="./index.html"><img src=".\images\logo-01.png" class="logo" alt="AISI"></a>
+
+    <nav class="menu">
+      <a href="./inst.html" class="menu_link"> Instalações </a>
+      <a href="./equipa.html" class="menu_link"> Equipa </a>
+      <a href="./ativ.html" class="menu_link"> Atividades </a>
+      <a href="./cont.html" class="menu_link"> Contactos </a>
+    </nav>
+
+    <div id="mobile_menu" class="icons_link">
+      <img src="./images/icon_menu.png">
+    </div>
+  </div>
+  </div>
+
+  <button onclick="topFunction()" id="top_button" title="Sobe equipa!"><img src="./images/icon_top.png" ></button>
+
+  <script>
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+          document.getElementById("top_button").style.display = "block";
+      } else {
+          document.getElementById("top_button").style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+<!--- INTRO -->
+
+  <div class="instalacoes clearfix">
+    <div class="instalacoes_txt">
+      <h1>Bem-vindo</h1>
+      <h3>aos melhores anos da sua vida</h3>
+    </div>
+  </div>
+
+<!-- FOTOS Instalações -->
+
+  <div class="inst_tit">
+    <h2>Instalações</h2>
+  </div>
+
+  <div class="inst_section clearfix">
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_one.jpg" alt="Ginásio">
+        <p class="inst_txt">Ginásio</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_two.jpg" alt="Enfermaria">
+        <p class="inst_txt">Enfermaria</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_three.jpg" alt="Jardim">
+        <p class="inst_txt">Jardim</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_four.jpg" alt="Refeitório">
+        <p class="inst_txt">Refeitório</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_five.jpg" alt="Quartos">
+        <p class="inst_txt">Quartos</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_six.jpg" alt="Salão">
+        <p class="inst_txt">Salão</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_seven.jpg" alt="Cozinha">
+        <p class="inst_txt">Cozinha</p>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="inst_item">
+        <img class="inst_img" src="./images/inst_eight.jpg" alt="Terraço">
+        <p class="inst_txt">Terraço</p>
+      </div>
+    </a>
+  </div>
+
+<!-- CONVITE -->
+
+  <div class="convite clearfix">
+      <h2>Contacte-nos e venha visitar-nos!</h2>
+      <div class= "rotate hello_box clearfix">
+        <a href="./cont.html"><img src="./images/hello_icon.png" alt="Hello!"></a>
+      </div>
+  </div>
+
+  <div class="inst_foot left">
+    <footer>
+      Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+    </footer>
+  </div>
+</body>

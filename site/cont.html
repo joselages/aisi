@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="inicial-scale=1.0, width=device-width" />
+  <title>AISI</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+</header>
+
+<body>
+  <!-- BARRA DE TOPO -->
+
+  <div class="top_menu">
+    <a href="./index.html"><img src=".\images\logo-01.png" class="logo" alt="AISI"></a>
+
+    <nav class="menu">
+      <a href="./inst.html" class="menu_link"> Instalações </a>
+      <a href="./equipa.html" class="menu_link"> Equipa </a>
+      <a href="./ativ.html" class="menu_link"> Atividades </a>
+      <a href="./cont.html" class="menu_link"> Contactos </a>
+    </nav>
+  </div>
+
+  <button onclick="topFunction()" id="top_button" title="Sobe equipa!"><img src="./images/icon_top.png" ></button>
+
+  <script>
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+          document.getElementById("top_button").style.display = "block";
+      } else {
+          document.getElementById("top_button").style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  <!-- INTRO CONTACTOS -->
+  <div class="contactos clearfix">
+    <div class="contactos_txt">
+      <h1>Entre em contacto</h1>
+      <h3>Estamos à sua espera</h3>
+    </div>
+  </div>
+
+  <!--- CONTACTOS -->
+
+  <div class="contactos_tit">
+    <h2>Contactos</h2>
+  </div>
+
+<!-- FORMULARIO -->
+
+<div class="formulario">
+  <div class="form_box clearfix">
+    <form>
+
+      <input type="text" id="nome" name="firstname" placeholder="O seu nome :)" />
+
+      <input type="text" id="email" name="mail" placeholder="O seu e-mail @" />
+
+      <label></label>
+      <textarea  id="mensagem" name="message" placeholder="Diga olá!"></textarea>
+    </form>
+    <input type="submit" value="Enviar!">
+  </div>
+</div>
+
+<!-- DADOS -->
+
+<div class="dados clearfix">
+    <h4>Ligue-nos</h4>
+    <img class="shake-rotate" src="./images/icon_phone.png" />
+    <h2>213456789</h2>
+</div>
+
+<div class="morada">
+    <h4>ou venha visitar-nos</h4>
+    <h3>Rua Júlio Dinis, Murches<br />Alcabideche</h3>
+</div>
+
+
+  <!-- MAPA -->
+  <div class="mapa">
+    <!-- mapa do site https://snazzymaps.com -->
+    <iframe src="https://snazzymaps.com/embed/38750" width="100%" height="500px" style="border:none;"></iframe>
+  </div>
+<!-- FOOTER -->
+
+<div class="foot_cont">
+  <footer>
+    Copyright © 2018 Associação de Idosos de Santa Iria. Todos os direitos reservados.
+  </footer>
+</div>
+
+</body>
